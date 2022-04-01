@@ -10,12 +10,10 @@ import { Usuario } from './usuario';
 export class AppComponent {
   miSuma:Suma;
   title = 'PrimeraClase';
-  miUsuario:Usuario;
   bienvenido:any;
   login:any;
   error:any;
   constructor(){
     this.miSuma= new Suma();
-    this.miUsuario = new Usuario();
   }
 }
