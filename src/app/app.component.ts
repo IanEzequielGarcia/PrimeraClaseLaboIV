@@ -9,7 +9,7 @@ import { Usuario } from './usuario';
 })
 export class AppComponent {
   miSuma:Suma;
-  title = 'PrimeraClase';
+  title = 'Garcia Ian';
   bienvenido:any;
   login:any;
   error:any;
