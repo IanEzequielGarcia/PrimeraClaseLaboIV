@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { BienvenidoComponent } from './bienvenido/bienvenido.component';
 import { ErrorComponent } from './error/error.component';
 import { CalculoComponent } from './calculo/calculo.component';
+import { NavbarComponent } from './page/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BienvenidoComponent,
     ErrorComponent,
-    CalculoComponent
+    CalculoComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
